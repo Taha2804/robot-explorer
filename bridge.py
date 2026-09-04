@@ -3,7 +3,7 @@ import sys
 from playwright.async_api import async_playwright
 
 # UPDATE THIS: Replace with your actual live GitHub Pages URL after deploying
-HOSTED_URL = "https://<your-github-username>.github.io/devops-assignment/"
+HOSTED_URL = "https://taha2804.github.io/robot-explorer/"
 
 async def main():
     target_url = sys.argv[1] if len(sys.argv) > 1 else HOSTED_URL
